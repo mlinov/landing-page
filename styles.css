@@ -1,28 +1,36 @@
 body {
     display: flex;
     flex-direction: column;
+    font: "roboto";
+    justify-content: space-between;
 }
 
 .header {
     background-color: #1f2937;
-}
-
-.body {
-
-}
-
-.footer {
-
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .top {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 10px;
 }
 
 .box {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 
+.one {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1;
 }
 
 .header-logo {
@@ -34,15 +42,22 @@ body {
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
+    margin-bottom: 20px;
 }
 
 .hero-subtext {
     font-size: 18px;
     color: #E5E7EB;
+    margin-bottom: 20px;
 }
 
-.button {
-    color: #3882f6;
+button {
+    background-color: #3882f6;
+    color: #E5E7EB;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+    border-radius: 7px;
 }
 
 ul {
@@ -50,7 +65,7 @@ ul {
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 10px;
+    gap: 20px;
   }
 
   a {
@@ -58,3 +73,19 @@ ul {
     text-decoration: none;
     font-size: 18px;
   }
+
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    text-align: center;
+    font: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.footer {
+
+}
