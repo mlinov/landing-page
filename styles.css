@@ -3,11 +3,12 @@ body {
     flex-direction: column;
     font-family: "Roboto";
     justify-content: space-between;
+    margin: 0
 }
 
 .header {
     background-color: #1f2937;
-    padding: 0 100px 50px 100px;
+    padding: 0 150px 50px 150px;
 }
 
 .top {
@@ -53,13 +54,24 @@ body {
     margin-bottom: 20px;
 }
 
-button {
+.button {
     background-color: #3882f6;
     color: #E5E7EB;
     font-weight: bold;
     width: 100px;
     height: 30px;
     border-radius: 7px;
+    border: none;
+}
+
+.button-one {
+    background-color: #3882f6;
+    color: #E5E7EB;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+    border-radius: 7px;
+    border-color: #E5E7EB;
 }
 
 ul {
@@ -116,7 +128,8 @@ a {
     font-size: 36px;
     color: #1F2937;
     font-style: italic;
-    padding: 50px 200px;
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
 
 .quote p {font-size: 18px;
@@ -124,12 +137,40 @@ a {
    color: black;
    align-self: center;
    margin-left: 350px;
+   font-weight: bold;
 }
 
 .quote-text {
-    width: 600px;
+   width: 600px;
+}
+
+.call {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 150px 100px 150px;
+    padding: 30px 30px;
+    background-color: #3882f6;
+    border-radius: 7px;
+}
+
+.call-box-small{
+    font-size: 15px;
+    color: #E5E7EB;
+}
+
+.call-box-big{
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: bold;
 }
 
 .footer {
-
+    background-color: #1f2937;
+    color: #E5E7EB;
+    text-align: center;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
